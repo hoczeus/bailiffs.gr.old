@@ -13,3 +13,8 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+.DS_Store
+/nova
+/.history
+_ide_helper.php
+_ide_helper_models.php

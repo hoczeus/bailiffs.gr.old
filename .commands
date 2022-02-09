@@ -1,0 +1,4 @@
+# CMD Commands
+
+# Create Laravel 9 Project
+composer create-project laravel/laravel bailiffs.gr
