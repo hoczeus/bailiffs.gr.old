@@ -2,3 +2,8 @@
 
 # Create Laravel 9 Project
 composer create-project laravel/laravel bailiffs.gr
+
+# Install Nova
+composer update
+php artisan nova:install
+php artisan migrate
