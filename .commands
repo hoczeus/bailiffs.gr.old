@@ -7,3 +7,12 @@ composer create-project laravel/laravel bailiffs.gr
 composer update
 php artisan nova:install
 php artisan migrate
+
+# ID -> UUID
+php artisan migrate
+php artisan db:seed
+php artisan migrate:rollback
+
+# Nova Admin
+php artisan migrate
+php artisan nova:user
